@@ -60,3 +60,17 @@ body{
 .support-portal-headline{
     padding: 40px;
 }
+
+.second_half{
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.marg_l{
+    margin-left: 8rem;
+}
+
+.cont {
+    width: 900px;
+    height: auto;
+}

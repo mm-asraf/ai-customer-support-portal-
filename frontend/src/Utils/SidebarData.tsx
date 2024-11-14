@@ -3,12 +3,17 @@ import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import AssistantIcon from '@mui/icons-material/Assistant';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import FeedbackIcon from '@mui/icons-material/Feedback';
-
+import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 export const sideBarData = [
     {
         title:'Dashboard',
         icon: <DashboardIcon />,
         link:'/'
+    },
+    {
+        title:'AI Customer Support Panel',
+        icon: <SupportAgentIcon />,
+        link:'/customer-support'
     },
     {
         title:'Queries Feed',

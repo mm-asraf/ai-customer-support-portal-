@@ -8,6 +8,7 @@ import QueriesFeed from './components/QueriesFeed';
 import AIResponseAnalytics from './components/AIResponseAnalytics';
 import AdminSettings from './components/AdminSettings';
 import DashBoardUI from './components/DashBoardUI';
+import AICustomerSupport from './components/AICustomerSupport';
 
 
 
@@ -36,6 +37,10 @@ export const appRouter = createBrowserRouter([
           path:'/',
           element:<DashBoardUI />
          
+      },
+      {
+        path:'/customer-support',
+        element:<AICustomerSupport />
       },
       {
         path:'/feedback',

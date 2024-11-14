@@ -1,0 +1,19 @@
+.card {
+    width: 19%;
+    height: 280px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+  }
+
+
+  .cont{
+    width: 1200px;
+    height: 700px;
+  }
+
+  .cmn{
+    width: 100%;
+  }
